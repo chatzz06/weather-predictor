@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-layer" id="bgLayer"></div>
+
+    <div class="app">
+      <h1>Weather App</h1>
+
+      <div class="search">
+        <input id="cityInput" type="text" placeholder="Enter city name" value="London" />
+        <button onclick="getWeather()">Search</button>
+      </div>
+
+      <div class="card">
+        <h2 id="cityName">London</h2>
+        <p id="weatherText">Loading...</p>
+        <p id="temp">--°C</p>
+        <p id="currentTime"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
