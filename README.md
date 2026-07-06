@@ -26,7 +26,6 @@ Weather-Prediction/
 │── index.html
 │── style.css
 │── script.js
-│── images/
 │── README.md
 ```
 
